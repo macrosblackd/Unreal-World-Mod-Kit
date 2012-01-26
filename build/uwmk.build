@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="UnrealWorldModKit" default="build" xmlns="http://nant.sf.net/release/0.91/nant.xsd">
+   <target name="build" depends="" />
+   <target name="compile">
+      <exec program="%WINDIR%\Microsoft.NET\Framework\v4.0\msbuild.exe" commandline="..\src\UnrealWorldModKit.sln /t:Rebuid /v:q"/>
+   </target>
+</project>
